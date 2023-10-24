@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif; 
+}
+body{
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    height: 100vh;
+    width: 100vw;
+}
+input{
+    background-color: yellowgreen;
+}
+.text-center{
+  font-size: 44px;
+}
+.button{
+  width: 3.3vw;
+  padding: 1vw;
+  margin: 0 0.15vw;
+  border: 0.1vw solid black;
+  border-radius: 0.44vw;
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.row{
+  margin: 0.2vw 0;
+}
+.row input{
+  width: 28.54vw;
+  font-size: 2vw;
+    margin: 0;
+    padding: 0.5vw 0px;
+    border: 0.1vw solid #3333;
+  }
+@media only screen and (max-width:600px) {
+  body{
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    height: 70vh;
+    width: 70vw;
+}
+.text-center{
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.input{
+  max-width: 50px;
+  height: 10px;
+}
+
+
+}
